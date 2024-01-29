@@ -43,9 +43,10 @@ namespace fountain
                     {
                         // assume conglomorate was not invoked
                         // TODO: remove without --srcdir option
-                        cc.Invoke("--srcdir C:\\Users\\Jacob\\Desktop\\Waterfountain\\training_data\\python-lambda-helloworld");
+                        cc.Invoke("--src " + Directory.GetCurrentDirectory());
                     } else if (src != null) {
                         //_Handle(src);
+                        cc.Invoke(src);
                     }
                 },
             srcOption);
@@ -55,7 +56,7 @@ namespace fountain
         {
             if (Handled) return;
             Handled = true;
-            Task<OpenAIResponse> resp = OpenAIAPI.Generate(new Phase1PromptProcessor().Process(src));
+            Task<OpenAIResponse> resp = OpenAIAPI.Generate(src);
             Entrypoint.Tasks.Add(resp); // queue up tasks to ensure proper execution
             var respo = await resp;
             if (respo.Error) {
@@ -63,7 +64,7 @@ namespace fountain
                 Console.WriteLine(respo.ErrorMessage);
             } else {
                 Console.WriteLine("---------------------- Phase 1 ---------------------- ");
-                Console.WriteLine(respo.Text.Trim());
+                Console.WriteLine(respo.Text);
             }
         }
         

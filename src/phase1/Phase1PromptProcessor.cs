@@ -18,7 +18,7 @@ namespace fountain
         /// <param name="src"></param>
         public string Process(string src, string extra="")
         {
-            return $"Describe the dynamodb resoucres and GSI's needed\n{src}";
+            return "Given the following source code for a microservice, please fully describe all the resources needed to deploy the service and any other resources that the code may be dependent on. When in doubt, describe it. When the platform is ambiguous, choose AWS. Do not generate IAC, instead describe ALL the resources and integrations with the code that are needed to deploy it.";
         }
     }
 }

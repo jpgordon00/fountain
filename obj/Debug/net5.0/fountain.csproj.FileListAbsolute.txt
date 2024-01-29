@@ -1,64 +1,98 @@
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.exe
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.deps.json
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.runtimeconfig.json
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.runtimeconfig.dev.json
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\ref\fountain.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fountain.pdb
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\System.CommandLine.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\cs\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\de\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\es\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\fr\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\it\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\ja\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\ko\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\pl\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\pt-BR\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\ru\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\tr\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\zh-Hans\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\bin\Debug\net5.0\zh-Hant\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.csprojAssemblyReference.cache
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.AssemblyInfoInputs.cache
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.AssemblyInfo.cs
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.csproj.CoreCompileInputs.cache
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.csproj.CopyComplete
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\ref\fountain.dll
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.pdb
-C:\Users\Jacob\Desktop\Porche Tycan\fountain\obj\Debug\net5.0\fountain.genruntimeconfig.cache
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.csprojAssemblyReference.cache
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.AssemblyInfoInputs.cache
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.AssemblyInfo.cs
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.csproj.CoreCompileInputs.cache
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\ref\fountain.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.pdb
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.exe
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.deps.json
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.runtimeconfig.json
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.runtimeconfig.dev.json
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\ref\fountain.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fountain.pdb
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\System.CommandLine.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\cs\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\de\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\es\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\fr\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\it\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\ja\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\ko\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\pl\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\pt-BR\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\ru\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\tr\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\zh-Hans\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\zh-Hant\System.CommandLine.resources.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.csproj.CopyComplete
-C:\Users\Jacob\Desktop\Waterfountain\fountain\obj\Debug\net5.0\fountain.genruntimeconfig.cache
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\Microsoft.Extensions.CommandLineUtils.dll
-C:\Users\Jacob\Desktop\Waterfountain\fountain\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.exe
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.deps.json
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.runtimeconfig.json
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.runtimeconfig.dev.json
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/ref/fountain.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fountain.pdb
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/System.CommandLine.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/cs/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/de/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/es/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/fr/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/it/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/ja/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/ko/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/pl/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/pt-BR/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/ru/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/tr/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/zh-Hans/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/bin/Debug/net5.0/zh-Hant/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.csprojAssemblyReference.cache
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.AssemblyInfoInputs.cache
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.AssemblyInfo.cs
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.csproj.CoreCompileInputs.cache
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.csproj.CopyComplete
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/ref/fountain.dll
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.pdb
+C:/Users/Jacob/Desktop/Porche Tycan/fountain/obj/Debug/net5.0/fountain.genruntimeconfig.cache
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.csprojAssemblyReference.cache
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.AssemblyInfoInputs.cache
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.AssemblyInfo.cs
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.csproj.CoreCompileInputs.cache
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/ref/fountain.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.pdb
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.exe
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.deps.json
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.runtimeconfig.json
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.runtimeconfig.dev.json
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/ref/fountain.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fountain.pdb
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/System.CommandLine.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/cs/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/de/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/es/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/fr/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/it/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/ja/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/ko/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/pl/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/pt-BR/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/ru/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/tr/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/zh-Hans/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/zh-Hant/System.CommandLine.resources.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.csproj.CopyComplete
+C:/Users/Jacob/Desktop/Waterfountain/fountain/obj/Debug/net5.0/fountain.genruntimeconfig.cache
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/Microsoft.Extensions.CommandLineUtils.dll
+C:/Users/Jacob/Desktop/Waterfountain/fountain/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain.deps.json
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain.runtimeconfig.json
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain.runtimeconfig.dev.json
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fountain.pdb
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/Microsoft.Extensions.CommandLineUtils.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/System.CommandLine.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/cs/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/de/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/es/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/fr/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/it/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/ja/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/ko/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/pl/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/pt-BR/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/ru/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/tr/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/zh-Hans/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/bin/Debug/net5.0/zh-Hant/System.CommandLine.resources.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.csproj.AssemblyReference.cache
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.AssemblyInfoInputs.cache
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.AssemblyInfo.cs
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.csproj.CoreCompileInputs.cache
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.sourcelink.json
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.csproj.CopyComplete
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/refint/fountain.dll
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.pdb
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/fountain.genruntimeconfig.cache
+/Users/jacobpaulgordon/Desktop/Code/fountain/obj/Debug/net5.0/ref/fountain.dll

@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Linq;
 
 /// <summary>
 /// NOTE: This file needs to be replaced with an updated version that invokes a non-openAI affiliated endpoint.
@@ -13,39 +14,59 @@ namespace fountain
     public class OpenAIAPI
     {
         private static readonly HttpClient client = new HttpClient();
-        private static readonly string apiKey = "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";
-        private static readonly string model = "text-davinci-003";
+        private static readonly string apiKey = "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";
+        private static readonly string model = "gpt-4-0125-preview";
         private static readonly float temperature = 0;
 
         internal static string _OUT = "";
 
-        public static async Task<OpenAIResponse> Generate(string prompt)
+        public static async Task<OpenAIResponse> Generate(string prompt, string prompt2 = null)
         {
-            //Console.WriteLine("Generate: " + prompt);
+            var messages = new List<OpenAIMessage>
+            {
+                new OpenAIMessage
+                {
+                    role = "system",
+                    content = "You look at code and describe EVERYTHING someone would need to deploy it, including resource names (if the code specifies) and any dependencies. Given the following source code for a microservice, please fully describe all the resources needed to deploy the service and any other resources that the code may be dependent on. When in doubt, describe it. When the platform is ambiguous, choose AWS. Do not generate IAC, instead describe ALL the resources and integrations with the code that are needed to deploy it. The user will provide you with the source code in the next message. Do this in as little words as possible."
+                },
+                new OpenAIMessage
+                {
+                    role = "user",
+                    content = prompt
+                },
+                prompt2 != null ? new OpenAIMessage
+                {
+                    role = "system",
+                    content = prompt2
+                } : null
+            }.Where(message => message != null).ToArray();
+
             string json = JsonConvert.SerializeObject(new OpenAIRequest
             {
-                prompt = prompt,
+                messages = messages,
                 temperature = temperature,
                 model = model,
-                max_tokens = 50
+                max_tokens = 500
             });
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
-            var response = await client.PostAsync(new Uri("https://api.openai.com/v1/completions"),
+            var response = await client.PostAsync(new Uri("https://api.openai.com/v1/chat/completions"),
                 new StringContent(json, Encoding.UTF8, "application/json"));
             string responseString = await response.Content.ReadAsStringAsync();
             client.DefaultRequestHeaders.Remove("Authorization");
             OpenAIResponse resp;
             try {
                 resp = JsonConvert.DeserializeObject<OpenAIResponse>(responseString);
-                resp.Error = false;
-                Console.WriteLine(resp.Text);
-                if (!resp.Completed) {
-                    _OUT += resp.Text;
-                    return await Generate(_OUT); // automatically generate until completion
-                } else {
-                    resp.choices[0].text = _OUT + resp.choices[0].text;
-                    _OUT = "";
+
+                // if not completed by length, force it to continue
+                if (resp.choices[0].finish_reason == "length") {
+                    Console.WriteLine("Continuing req...");
+                    //Console.WriteLine("Continuing request with response: " + JsonConvert.SerializeObject(resp));
+                    return await Generate(prompt, resp.Text);
                 }
+
+                resp.Error = false;
+                Console.WriteLine(JsonConvert.SerializeObject(resp));
+                
             } catch (Exception ex) {
                 string message = JsonConvert.DeserializeObject<OpenAIErrorResponse>(responseString).error.message;
                 return new OpenAIResponse{Error = true, ErrorMessage = message};
@@ -69,7 +90,7 @@ namespace fountain
 
     public class OpenAIRequest
     {
-        public string prompt { get; set; }
+        public OpenAIMessage[] messages { get; set; }
         public float temperature { get; set; }
         public string model { get; set; }
         public int max_tokens {get; set;}
@@ -79,7 +100,7 @@ namespace fountain
     {
         public OpenAIChoices[] choices;
         public bool Completed => choices[0].finish_reason == "stop";
-        public string Text => choices[0].text;
+        public string Text => choices[0].message.content;
         public string Reyes {get; set;}
         public bool Error {get; set;}
         public string ErrorMessage {get; set;}
@@ -87,7 +108,13 @@ namespace fountain
 
     public class OpenAIChoices
     {
-        public string text {get; set;}
+        public OpenAIMessage message {get; set;}
         public string finish_reason {get; set;}
+    }
+
+    public class OpenAIMessage
+    {
+        public string content { get; set; }
+        public string role { get; set; }
     }
 }
